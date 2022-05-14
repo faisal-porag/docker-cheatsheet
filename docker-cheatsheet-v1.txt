@@ -1,0 +1,3 @@
+$ docker ps
+$ docker ps -a
+$ docker kill $ID
