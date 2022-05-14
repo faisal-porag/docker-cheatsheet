@@ -114,11 +114,22 @@ $ docker network rm	# Remove one or more networks
 ```
 
 
-## Docker shell
+## Docker shell (Get into the docker container)
 ```bash
 $ docker exec -it CONTAINER_ID_OR_IMAGE_NAME sh
 ```
 
+
+## Run docker image with .env file
+```bash
+$ docker run -p 8080:8083 --env-file ./.env -t -it PROJECT_NAME
+```
+
+## Run image with port
+```bash
+$ docker run -d -p 7777:7777 IMAGE_NAME --port 7777
+$ docker run -it --rm --name rabbitmq -p 5672:5672 -p 15672:15672 rabbitmq:3.8-management # Ex: rabbitmq image
+```
 
 
 
