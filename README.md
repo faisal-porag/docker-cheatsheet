@@ -73,6 +73,20 @@ $ docker container stop	# Stop one or more running containers
 ```
 
 
+## Pull a repository with multiple images
+By default, docker pull pulls a single image from the registry. A repository can contain multiple images. To pull all images from a repository, provide the `-a (or --all-tags)` option when using docker pull.
+
+This command pulls all images from the fedora repository:
+```bash
+$ docker pull --all-tags IMAGE_NAME
+```
+
+
+## Cancel a pull
+Killing the `docker pull` process, for example by pressing `CTRL-c` while it is running in a terminal, will terminate the pull operation.
+```bash
+$ docker pull fedora
+```
 
 
 
