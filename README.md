@@ -1,4 +1,4 @@
-# Docker Cheat sheet
+# Docker Cheat Sheet
 `All necessary docker commands`
 
 
