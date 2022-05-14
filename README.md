@@ -74,11 +74,13 @@ $ docker container stop	# Stop one or more running containers
 ```
 
 
-## Project Run With Docker 
+## Project Build && Run With Docker 
 ```bash
 $ docker build -t PROJECT_NAME .
+$ docker build . # build current directory project
 $ docker run IMAGE_NAME
 $ docker build -f local.Dockerfile -t IMAGE_NAME .  # docker file read from another docker file ....
+$ docker build github.com/creack/docker-firefox  # Build with URL
 ```
 
 
