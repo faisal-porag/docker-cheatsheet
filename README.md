@@ -2,7 +2,7 @@
 `All necessary docker commands`
 
 
-## Manage containers
+## Manage Containers
 
 `docker ps`
 
@@ -15,7 +15,7 @@ $ docker kill $ID
 Manage `container`s using ps/kill.
 
 
-## Images && Container
+## Images && Containers
 ```bash
 $ docker images
 $ docker image ls
@@ -45,6 +45,7 @@ $ docker image rmi # Remove one or more images
 $ docker image build # Build an image from a Dockerfile
 ```
 
+
 ## Container Management CLIs
 ```bash
 $ docker create IMAGE_NAME
@@ -70,6 +71,14 @@ $ docker container stats	# Display a live stream of container(s) resource usage 
 $ docker container wait	# Block until one or more containers stop, then print their exit codes
 $ docker container start	# Start one or more stopped containers
 $ docker container stop	# Stop one or more running containers
+```
+
+
+## Project Run With Docker 
+```bash
+$ docker build -t PROJECT_NAME .
+$ docker run IMAGE_NAME
+$ docker build -f local.Dockerfile -t IMAGE_NAME .  # docker file read from another docker file ....
 ```
 
 
