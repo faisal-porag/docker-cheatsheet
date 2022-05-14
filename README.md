@@ -1,5 +1,5 @@
-## Docker-Cheatsheet
-All necessary docker commands 
+### Docker Cheat sheet
+`All necessary docker commands`
 
 
 # Manage containers
