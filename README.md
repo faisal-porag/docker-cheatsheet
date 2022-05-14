@@ -1,5 +1,5 @@
 # Docker Cheat Sheet
-`All necessary docker commands`
+`Some necessary docker commands`
 
 
 ## Manage Containers
@@ -94,10 +94,22 @@ $ docker pull --all-tags IMAGE_NAME
 ## Cancel a pull
 Killing the `docker pull` process, for example by pressing `CTRL-c` while it is running in a terminal, will terminate the pull operation.
 ```bash
-$ docker pull fedora
+$ docker pull IMAGE_NAME
 ```
 
 
+## Docker Network
+Description
+Manage networks. You can use subcommands to create, inspect, list, remove, prune, connect, and disconnect networks.
+```bash
+$ docker network connect	# Connect a container to a network
+$ docker network create	# Create a network
+$ docker network disconnect	# Disconnect a container from a network
+$ docker network inspect	# Display detailed information on one or more networks
+$ docker network ls	# List networks
+$ docker network prune	# Remove all unused networks
+$ docker network rm	# Remove one or more networks
+```
 
 
 
