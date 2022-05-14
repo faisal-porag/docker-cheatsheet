@@ -114,7 +114,10 @@ $ docker network rm	# Remove one or more networks
 ```
 
 
-
+## Docker shell
+```bash
+$ docker exec -it CONTAINER_ID_OR_IMAGE_NAME sh
+```
 
 
 
