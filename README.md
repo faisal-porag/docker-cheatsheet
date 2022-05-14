@@ -1,8 +1,8 @@
-### Docker Cheat sheet
+# Docker Cheat sheet
 `All necessary docker commands`
 
 
-# Manage containers
+## Manage containers
 
 `docker ps`
 
@@ -15,7 +15,7 @@ $ docker kill $ID
 Manage `container`s using ps/kill.
 
 
-# Images && Container
+## Images && Container
 ```bash
 $ docker images
 $ docker image ls
@@ -31,7 +31,7 @@ $ docker container rm -f $(docker container ls -aq) # Delete unused containers f
 ```
 
 
-# Image Management Commands
+## Image Management Commands
 ```basg
 $ docker images # list all local images
 $ docker image ls # List of images
@@ -45,7 +45,7 @@ $ docker image rmi # Remove one or more images
 $ docker image build # Build an image from a Dockerfile
 ```
 
-# Container Management CLIs
+## Container Management CLIs
 ```bash
 $ docker create IMAGE_NAME
 $ docker run IMAGE_NAME
