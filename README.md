@@ -73,6 +73,7 @@ $ docker container start	# Start one or more stopped containers
 $ docker container stop	# Stop one or more running containers
 $ docker rename YOUR_CONTAINER YOUR_NEW_CONTAINER
 $ docker service inspect [OPTIONS] SERVICE [SERVICE...]
+$ docker stats awesome_brattain 67b2525d8ad1
 ```
 
 
