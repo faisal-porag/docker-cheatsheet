@@ -71,6 +71,8 @@ $ docker container stats	# Display a live stream of container(s) resource usage 
 $ docker container wait	# Block until one or more containers stop, then print their exit codes
 $ docker container start	# Start one or more stopped containers
 $ docker container stop	# Stop one or more running containers
+$ docker rename YOUR_CONTAINER YOUR_NEW_CONTAINER
+$ docker service inspect [OPTIONS] SERVICE [SERVICE...]
 ```
 
 
