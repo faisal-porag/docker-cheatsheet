@@ -84,6 +84,7 @@ $ docker build . # build current directory project
 $ docker run IMAGE_NAME
 $ docker build -f local.Dockerfile -t IMAGE_NAME .  # docker file read from another docker file
 $ docker build github.com/creack/docker-firefox  # Build with URL
+$ docker build --rm -t golang-docker-example . # delete command with build
 ```
 
 
