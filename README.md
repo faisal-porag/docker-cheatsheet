@@ -12,7 +12,7 @@ $ docker ps -a
 $ docker kill $IMAGE_ID
 ```
 
-Manage `container`s using ps/kill.
+Manage `container'`s using ps/kill.
 
 
 ## Images && Containers
