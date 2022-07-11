@@ -32,7 +32,7 @@ $ docker container rm -f $(docker container ls -aq) # Delete unused containers f
 
 
 ## Image Management Commands
-```basg
+```bash
 $ docker images # list all local images
 $ docker image ls # List of images
 $ docker history image # show the image history
