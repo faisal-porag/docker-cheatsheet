@@ -6,10 +6,6 @@
 
 ```bash
 $ docker ps
-```
-
-```bash
-$ docker ps
 $ docker ps -a
 $ docker kill $IMAGE_ID
 ```
