@@ -2,9 +2,11 @@
 `Some necessary docker commands`
 
 
-## Manage Containers
+### Manage Containers
 
-`docker ps`
+```bash
+$ docker ps
+```
 
 ```bash
 $ docker ps
@@ -12,7 +14,7 @@ $ docker ps -a
 $ docker kill $IMAGE_ID
 ```
 
-Manage `container's` using ps/kill.
+### Manage `container's` using ps/kill.
 
 
 ## Images && Containers
