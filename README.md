@@ -139,6 +139,8 @@ $ docker run -it --rm --name rabbitmq -p 5672:5672 -p 15672:15672 rabbitmq:3.8-m
 #### DELETE UNUSED CONTAINERS
 ```bash 
 $ docker rm $(docker ps -a -q -f status=exited)
+or
+$ docker container prune
 ```
 
 
